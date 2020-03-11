@@ -1,0 +1,5 @@
+cost=eval(input())
+tip=eval(input())
+tax=eval(input())
+total=cost+(cost*(tip/100))+(cost*(tax/100))
+print(round(total))
