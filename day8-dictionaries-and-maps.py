@@ -17,7 +17,7 @@ limit=int(input())
 for i in range(limit):
     name,number=input().split()
     phoneNumbers.numbersAndName(name, number)
-while True:
+for i in range(limit):
     n=input()
     phoneNumbers.viewInfo(n)
     
